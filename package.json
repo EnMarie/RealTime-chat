@@ -1,0 +1,21 @@
+{
+  "name": "real_time_chat",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "AMN",
+  "license": "MIT",
+  "description": "RealTime Chat with Socket.oi",
+  "dependencies": {
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
